@@ -80,14 +80,14 @@ export function CTA() {
 
               {/* Trust Indicators */}
               <div className="mt-12 pt-8 border-t border-white/10">
-                <p className="text-sm text-gray-500 mb-4">Trusted by innovative teams</p>
+                <p className="text-sm text-gray-500 mb-4">Ready when you are</p>
                 <div className="flex items-center justify-center gap-8 opacity-50">
-                  {["Acme Corp", "TechFlow", "DataSync", "CloudNine"].map((company) => (
+                  {["Fast Turnaround", "Custom Solutions", "Ongoing Support"].map((item) => (
                     <span
-                      key={company}
+                      key={item}
                       className="text-sm font-medium text-gray-400"
                     >
-                      {company}
+                      {item}
                     </span>
                   ))}
                 </div>

@@ -92,40 +92,40 @@ export const siteConfig = {
   
   caseStudies: [
     {
-      company: "Nexus Financial",
-      industry: "Fintech",
-      title: "70% Faster Customer Support",
-      description: "Implemented an intelligent chatbot that handles 85% of customer inquiries autonomously, reducing response time from hours to seconds.",
+      company: "Example: Customer Support",
+      industry: "SaaS",
+      title: "AI Chatbot Implementation",
+      description: "A typical AI chatbot project can automate routine customer inquiries, reduce response times from hours to seconds, and free up human agents for complex issues.",
       metrics: [
-        { value: "85%", label: "Queries Automated" },
-        { value: "70%", label: "Faster Response" },
-        { value: "$2.4M", label: "Annual Savings" }
+        { value: "85%", label: "Common Queries" },
+        { value: "70%", label: "Response Time" },
+        { value: "24/7", label: "Availability" }
       ],
-      tags: ["Chatbot", "NLP", "Integration"]
+      tags: ["Chatbot", "NLP", "Customer Support"]
     },
     {
-      company: "Velocity Logistics",
-      industry: "Supply Chain",
-      title: "End-to-End Process Automation",
-      description: "Built a comprehensive automation layer connecting 12 different systems, eliminating manual data entry and reducing errors by 94%.",
+      company: "Example: Workflow Automation",
+      industry: "Operations",
+      title: "Process Automation System",
+      description: "Automation projects typically connect disparate systems, eliminate manual data entry, reduce human error, and recover thousands of hours annually.",
       metrics: [
-        { value: "12", label: "Systems Integrated" },
-        { value: "94%", label: "Error Reduction" },
-        { value: "3,200+", label: "Hours Saved/Year" }
+        { value: "10+", label: "Systems" },
+        { value: "90%+", label: "Error Reduction" },
+        { value: "1000s", label: "Hours Saved" }
       ],
-      tags: ["Automation", "Integration", "RPA"]
+      tags: ["Automation", "Integration", "Workflow"]
     },
     {
-      company: "Apex Research",
-      industry: "Market Research",
-      title: "Autonomous Research Agent",
-      description: "Deployed an AI agent that conducts independent market research, synthesizes findings, and generates actionable reports without human intervention.",
+      company: "Example: Research Agent",
+      industry: "Research",
+      title: "Autonomous Research System",
+      description: "AI agents can conduct ongoing research, monitor data sources, synthesize findings, and deliver insights without constant human oversight.",
       metrics: [
-        { value: "10x", label: "Faster Research" },
-        { value: "24/7", label: "Operation" },
-        { value: "98%", label: "Accuracy Rate" }
+        { value: "10x", label: "Speed" },
+        { value: "24/7", label: "Monitoring" },
+        { value: "95%+", label: "Accuracy" }
       ],
-      tags: ["AI Agent", "Automation", "Analytics"]
+      tags: ["AI Agent", "Research", "Automation"]
     }
   ],
   
@@ -133,7 +133,7 @@ export const siteConfig = {
     title: "Ready to Transform Your Business?",
     subtitle: "Let's discuss how AI can drive real results for your organization.",
     primaryCta: "Schedule a Call",
-    secondaryCta: "View Case Studies"
+    secondaryCta: "See What's Possible"
   },
   
   footer: {

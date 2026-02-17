@@ -23,14 +23,14 @@ export function CaseStudies() {
           className="text-center mb-20"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-medium mb-6">
-            Case Studies
+            What's Possible
           </span>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight mb-6">
-            Results That{" "}
-            <span className="gradient-text">Speak</span>
+            Results You Can{" "}
+            <span className="gradient-text">Expect</span>
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-gray-400">
-            Real outcomes from real partnerships. See how we've transformed businesses with AI.
+            Example scenarios showing typical outcomes from AI implementations. Your results may vary based on scope and requirements.
           </p>
         </motion.div>
 
