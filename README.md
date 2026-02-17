@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Brainyx AI Agency
 
-## Getting Started
+A bold, tech-forward website for Brainyx AI Agency — specializing in AI Chatbots, Automation/Integrations, and AI Agents.
 
-First, run the development server:
+![Brainyx Website](https://brainyx-agency.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Live Demo
+
+[View Live Site](https://brainyx-agency.vercel.app)
+
+## ✨ Features
+
+- **Bold Dark Theme** — Electric blue/cyan accent on deep black background
+- **Animated Hero Section** — Staggered reveal animations with gradient text
+- **Service Cards** — 3 distinctive cards for AI Chatbots, Automation, and AI Agents
+- **Process Section** — 4-step workflow visualization
+- **Case Studies** — Real-world results with metrics
+- **Responsive Design** — Mobile-first approach
+- **Smooth Animations** — Powered by Framer Motion
+
+## 🛠️ Tech Stack
+
+- **Next.js 16** — React framework with App Router
+- **TypeScript** — Type-safe development
+- **Tailwind CSS** — Utility-first styling
+- **Framer Motion** — Smooth animations
+- **Lucide React** — Beautiful icons
+
+## 📁 Project Structure
+
+```
+brainyx-agency/
+├── src/
+│   ├── app/              # Next.js app router
+│   │   ├── globals.css   # Global styles with custom design system
+│   │   ├── layout.tsx    # Root layout
+│   │   └── page.tsx      # Home page
+│   ├── components/       # React components
+│   │   ├── Navigation.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Services.tsx
+│   │   ├── Process.tsx
+│   │   ├── CaseStudies.tsx
+│   │   ├── CTA.tsx
+│   │   └── Footer.tsx
+│   ├── config/
+│   │   └── site.ts       # Site configuration
+│   └── lib/
+│       └── utils.ts      # Utility functions
+├── dist/                 # Static export output
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design System
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Colors
+- **Background**: `#050508` (Deep black)
+- **Surface**: `#0a0a0f` (Slightly lighter)
+- **Accent**: `#00d4ff` (Electric cyan)
+- **Accent Secondary**: `#8b5cf6` (Violet)
+- **Text Primary**: `#ffffff`
+- **Text Secondary**: `#9ca3af`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Typography
+- **Display**: Space Grotesk (Bold, tech-forward headlines)
+- **Body**: Plus Jakarta Sans (Clean, readable text)
 
-## Learn More
+## 🚦 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone the repository
+git clone https://github.com/sysrooks/brainyx-agency.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Navigate to project
+cd brainyx-agency
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Install dependencies
+npm install
 
-## Deploy on Vercel
+# Run development server
+npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Build for production
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Sections
+
+1. **Navigation** — Fixed glassmorphism header with smooth scroll
+2. **Hero** — Animated headline with gradient text and CTA buttons
+3. **Services** — 3 cards showcasing AI Chatbots, Automation, and AI Agents
+4. **Process** — 4-step development workflow
+5. **Case Studies** — Client success stories with metrics
+6. **CTA** — Call-to-action with trust indicators
+7. **Footer** — Links and social connections
+
+## 🏆 Design Philosophy
+
+- **Anti-AI-Slop** — Distinctive, memorable design
+- **Bold Typography** — Large, confident headlines
+- **Atmospheric Backgrounds** — Subtle grids and gradients
+- **Smooth Motion** — Orchestrated animations
+- **High Contrast** — Clear visual hierarchy
+
+---
+
+Built with ❤️ by Brainyx
